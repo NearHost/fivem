@@ -1,0 +1,95 @@
+///////////////////////////////////////////////////////////
+/////////    Configuration du serveur NearHost    /////////    		
+///////// 		            NearHost               /////////  	
+////////////////////////////////////////////////////////
+
+log on
+
+// Nom du serveur
+hostname "[FR] Nouveaux Serveur by NearHost"
+
+// Mot de passe
+sv_password ""
+
+// Ecran de Chargement
+sv_loadingurl   ""
+
+// RCON
+rcon_password ""
+
+// Region du serveur (3 = Europe)
+sv_region "3" 
+
+// Allow/disallow client side LUA
+sv_allowcslua "0"
+
+// Disallow cheat commands
+sv_cheats "0"
+
+// Misc
+mp_timelimit "1"
+sv_lan "0"
+sv_logbans "1"
+sv_logecho "1"
+sv_logfile "1"
+sv_log_onefile "0"
+sv_noclipspeed "5"
+sv_noclipaccelerate	"5"
+
+// Gamemode
+gamemode "darkrp"
+
+// PVP
+sbox_playershurtplayers "1"
+mp_friendlyfire "1"
+
+// Godmode
+sbox_godmode "0"
+
+// Pausable
+sv_pausable "1"
+
+// SourceTV
+tv_enable "0"
+tv_delay "30"
+
+// Netcode
+sv_mincmdrate "33"
+sv_maxcmdrate "66"
+sv_minrate "0"
+sv_maxrate "0"
+decalfrequency "10"
+sv_maxupdaterate "66"
+sv_minupdaterate "66"
+fps_max "0"
+
+// Gmod cvars
+sbox_noclip "0"
+sbox_maxprops "150"
+sbox_maxragdolls "5"
+sbox_maxnpcs "30"
+sbox_maxballoons "10"
+sbox_maxeffects "50"
+sbox_maxdynamite "10"
+sbox_maxlamps "20"
+sbox_maxthrusters "30"
+sbox_maxwheels "20"
+sbox_maxhoverballs "20"
+sbox_maxvehicles "6"
+sbox_maxbuttons "20"
+sbox_maxsents "20"
+sbox_maxemitters "5"
+sbox_maxspawners "3"
+sbox_maxturrets "2"
+
+// Server Settings
+net_maxfilesize "64"
+
+//Execute ban files
+exec banned_ip.cfg
+exec banned_user.cfg
+
+///////////////////////////////////////////////////////////
+/////////    Configuration du serveur NearHost    /////////    		
+///////// 		            NearHost               /////////  	
+////////////////////////////////////////////////////////
