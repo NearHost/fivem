@@ -1,12 +1,19 @@
-///////////////////////////////////////////////////////////
-/////////    Configuration du serveur NearHost    /////////    		
-///////// 		            NearHost               /////////  	
-////////////////////////////////////////////////////////
+           // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
+        //   __________               ______________ .__                   .___    _____                          //
+       //    \______   \ ____________/ ____\_   ___ \|  |   ____  __ __  __| _/  _/ ____\______                  //
+      //      |     ___// __ \_  __ \   __\/    \  \/|  |  /  _ \|  |  \/ __ |   \   __\\_  __ \                //
+     //       |    |   \  ___/|  | \/|  |  \     \___|  |_(  <_> )  |  / /_/ |    |  |   |  | \/               //
+    //        |____|    \___  >__|   |__|   \______  /____/\____/|____/\____ | /\ |__|   |__|                 //
+   //                       \/                     \/                       \/ \/                            //
+  //          Notre Discord : https://discord.gg/y9N5jSgQNk                                                 //
+ //           Notre Site : https://perfcloud.fr                                                            //
+//            Nos Offres Garry's Mod : https://perfcloud.fr/index.php?rp=/store/hebergement-garrys-mod    // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
 
 log on
 
 // Nom du serveur
-hostname "[FR] Nouveaux Serveur by NearHost"
+hostname "[FR] Nouveaux Serveur Garry's Mod de PerfCloud.fr"
 
 // Mot de passe
 sv_password ""
@@ -20,13 +27,13 @@ rcon_password ""
 // Region du serveur (3 = Europe)
 sv_region "3" 
 
-// Allow/disallow client side LUA
+// Autoriser/refuser le LUA côté client
 sv_allowcslua "0"
 
-// Disallow cheat commands
+// Interdire les commandes de tricheurs
 sv_cheats "0"
 
-// Misc
+// Divers
 mp_timelimit "1"
 sv_lan "0"
 sv_logbans "1"
@@ -36,14 +43,14 @@ sv_log_onefile "0"
 sv_noclipspeed "5"
 sv_noclipaccelerate	"5"
 
-// Gamemode
-gamemode "darkrp"
+// Mode de jeux
+gamemode "sandbox"
 
 // PVP
 sbox_playershurtplayers "1"
 mp_friendlyfire "1"
 
-// Godmode
+// Godmode (mode de vie)
 sbox_godmode "0"
 
 // Pausable
@@ -63,7 +70,7 @@ sv_maxupdaterate "66"
 sv_minupdaterate "66"
 fps_max "0"
 
-// Gmod cvars
+// Cvars de Gmod
 sbox_noclip "0"
 sbox_maxprops "150"
 sbox_maxragdolls "5"
@@ -82,14 +89,21 @@ sbox_maxemitters "5"
 sbox_maxspawners "3"
 sbox_maxturrets "2"
 
-// Server Settings
+// Paramètres du serveur
 net_maxfilesize "64"
 
-//Execute ban files
+// Exécuter les fichiers d'interdiction
 exec banned_ip.cfg
 exec banned_user.cfg
 
-///////////////////////////////////////////////////////////
-/////////    Configuration du serveur NearHost    /////////    		
-///////// 		            NearHost               /////////  	
-////////////////////////////////////////////////////////
+         // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // //
+        //   __________               ______________ .__                   .___    _____                          //
+       //    \______   \ ____________/ ____\_   ___ \|  |   ____  __ __  __| _/  _/ ____\______                  //
+      //      |     ___// __ \_  __ \   __\/    \  \/|  |  /  _ \|  |  \/ __ |   \   __\\_  __ \                //
+     //       |    |   \  ___/|  | \/|  |  \     \___|  |_(  <_> )  |  / /_/ |    |  |   |  | \/               //
+    //        |____|    \___  >__|   |__|   \______  /____/\____/|____/\____ | /\ |__|   |__|                 //
+   //                       \/                     \/                       \/ \/                            //
+  //          Notre Discord : https://discord.gg/y9N5jSgQNk                                                 //
+ //           Notre Site : https://perfcloud.fr                                                            //
+//            Nos Offres Garry's Mod : https://perfcloud.fr/index.php?rp=/store/hebergement-garrys-mod    // 
+// // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // // 
